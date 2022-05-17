@@ -5,67 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./index.css" />
     <script src="main.js"></script>
-    <style>
-        body {
-            margin: 0px;
-            font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
-            background-color: #485861;
-            color: #FFE6CF;
-            font-size: 11px;
-            line-height: 1.4;
-            font-weight: 500;
-        }
-
-        .text-area {
-        margin-top: 90px;
-        line-height: 30px;
-        margin-left: 24px;
-        }
-
-        .text-area h1 {
-            font-size: 30px;
-            line-height: 30px;
-            font-weight: normal;
-        }
-
-        .volume {
-            margin-bottom: 85px;
-        }
-
-        p{
-            line-height: 14px;
-        }
-
-        #circle-wrapper {
-            
-        }
-
-        .circle {
-            width: 246px;
-            height: 246px;
-            border-radius: 50%;
-        }
-        .circle:nth-child(1) {
-            background-color: transparent;
-            border: 1px solid black;
-            opacity: 0.2;
-        }
-        .circle:nth-child(2) {
-            background-color: #ffc000;
-        }
-        .circle:nth-child(3) {
-            background-color: #fedd15;
-        }
-    </style>
   </head>
   <body>
       <!-- 텍스트 영역 -->
       <div class="text-area">
         <h1>
           <div class="volume">vol. 4</div>
-          <div class="title">Classics<br /> naver<br /> get old</div>
+          <div class="title">Classics<div class="line"></div><br /> naver<br /> get old</div>
         </h1>
           <p>We'll make a mobile magazine<br /> using html,
               css only</p>
@@ -77,7 +26,7 @@
           <div class="circle"></div>
       </div>
       <!-- 뱃지 -->
-      <div>Ex- <br />
+      <div id="badge">Ex- <br />
           clusive</div>
   </body>
 </html>
